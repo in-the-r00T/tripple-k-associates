@@ -1,0 +1,37 @@
+# Triple K Associates
+# New Lawyer Onboarding Guide
+
+
+
+This guide provides step-by-step instructions for setting up Git, accessing the firm's shared repository, 
+recording new cases in the case log, and submitting updates to the shared repository.
+
+1. Initial Onboarding and Orientation
+- Introduce new lawyers to the purpose of the firm's shared GitHub repository.
+- Explain how the repository supports collaborative case documentation and record management.
+- Provide an overview of the repository's structure, including important files such as cases.txt.
+- Explain the importance of version control, collaboration, and maintaining accurate records.
+
+
+2. Git Installation and Configuration
+- Guide new lawyers through the installation and configuration of Git.
+- Assist with setting up their Git identity using their full names and professional email addresses.
+- Explain the difference between Git and GitHub.
+- Ensure that each lawyer can successfully clone the firm's repository.
+- Assist with authentication and repository access where necessary.
+
+
+3. Repository Access and Permissions
+- Coordinate requests for GitHub repository access.
+- Verify that new lawyers have the appropriate permissions before they begin contributing.
+- Ensure that repository access is granted only to authorized personnel.
+- Escalate access-related issues to the designated repository administrator.
+- Reinforce the importance of protecting authentication credentials and access tokens.
+
+
+4. Case Log Management Training
+- Demonstrate how to access and navigate the cases.txt file.
+- Explain the firm's case-numbering convention and documentation format.
+- Train new lawyers on how to add new cases without duplicating existing records.
+- Emphasize the importance of concise, factual, and consistent case descriptions.
+- Ensure that lawyers understand the confidentiality requirements governing information stored in the repository.
