@@ -1,0 +1,15 @@
+# Onboarding instructions to new lawyers interacting with Tripplek system
+
+1. The first step in to git cloning the  remote repository into your local  machine
+
+2. Add your new  case to cases.txt file. close the file.
+
+3. Stage your changes using "git add cases.txt"
+
+4. Take snapshot of your changes using "git commit -m "Add eloquent description here"
+
+5. Perform  "git pull" to make sure your are syncronised with the latest version.
+
+6. Git push to the remote repository using "git push" command.
+
+7. To resolve conflict open the file with vim and clear out the marker.

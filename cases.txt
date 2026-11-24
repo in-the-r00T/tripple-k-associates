@@ -21,6 +21,66 @@ Client name: Korir (Again!)
 Threats of False Accusation
 
 Case 5
-Corruption
-Client name: Harun
-Client is reported to have demanded a bribe in exchange for providing a government servive
+Espionage and Leaking State Secrets
+Client Name: Lemayian
+Client commits .env files to public repositories!
+
+Case 6
+Unlawful Detention
+Client name: Kipruto Arusei
+Client has been trapped inside Vim since Tuesday!
+
+Case 7
+Conspiracy to commit treason
+Client Name: Daniel
+Client planned to sell state secrets
+
+Case 8
+Breach of Contract
+Client name: Kipruto Arusei
+Client swore "it works on my machine" and switched off his phone!
+
+Case 9
+Copyright infringement
+client name: Ruud
+Ip rights authenticated  by forencics
+
+Case 10
+Grand Theft Auto
+Client name: Waunyoro
+Texas is on fire
+
+Case 11
+Dismal from office
+Client name: Korir
+Client was unfairly dismissed from his job over alleged absence
+
+Case 12
+2027 elections
+Client name : Ambuso Dismas
+Won the election
+
+Case 13
+Suicide attempt
+Client name:Boyoptum
+Client drank too much ,to a near death
+
+Case 14
+Trespassing
+Client name: Kelvin Mwangi
+Client wandered into GitHub Enterprise Server while looking for GitHub.com
+
+Case 15
+Theft
+Client name: Sam
+Client claims his Mac disappeared from his house overnight
+
+Case 16
+Abduction
+Client name: Kibet Bull
+Client is reported to have been abducted while dancing in a Disco Matanga
+
+Case 17
+Adultery
+Client name: Juma
+Client is abusing underage and people wives is the residence.

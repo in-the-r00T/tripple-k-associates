@@ -1,0 +1,140 @@
+# Triple K Associates — New Lawyer Onboarding Guide
+# Author: Lemayian
+
+Welcome to Triple K Associates. This guide walks you through two things you will do
+regularly: working with the firm's Version Control System (VCS), and logging cases
+and submitting them to the shared GitHub repository.
+
+---
+
+## SECTION 1: How to Use the Triple K Associates VCS
+
+Triple K Associates uses Git as its Version Control System and GitHub as the shared
+remote server. Git tracks every change made to firm files so that work from multiple
+lawyers can be merged without overwriting each other's contributions.
+
+### Initial Setup (do this once)
+
+1. Install Git on your machine if it is not already installed.
+   - Linux/Mac: Git is usually pre-installed. Verify with: git --version
+   - Windows: Download from https://git-scm.com
+
+2. Configure your identity so your commits are attributed correctly:
+
+      git config --global user.name "Your Full Name"
+      git config --global user.email "your.email@triplekassociates.com"
+
+3. Clone the firm repository to your local machine:
+
+      git clone git@github.com:in-the-r00T/tripple-k-associates.git
+
+   This creates a local copy of the repository in a folder called
+   "tripple-k-associates" on your machine.
+
+4. Navigate into the repository:
+
+      cd tripple-k-associates
+
+### Daily Workflow
+
+Before starting any work, always pull the latest changes from the remote server
+to avoid conflicts:
+
+      git pull
+
+This syncs your local copy with any changes other lawyers have already pushed.
+
+After making your changes:
+
+1. Stage the files you changed:
+
+      git add <filename>
+
+   For example: git add cases.txt
+
+2. Commit your changes with a clear description of what you did:
+
+      git commit -m "Add: case 14 - breach of contract for client Omondi"
+
+3. Pull again before pushing (a colleague may have pushed while you were working):
+
+      git pull
+
+4. Push your changes to the shared GitHub repository:
+
+      git push
+
+### Key Git Commands Reference
+
+   git status          — shows which files have been changed or staged
+   git log --oneline   — shows a short history of recent commits
+   git diff            — shows the exact lines you changed before staging
+   git pull            — fetches and merges the latest remote changes
+   git push            — uploads your committed changes to GitHub
+
+---
+
+## SECTION 2: How to Log Cases and Submit Them to the Shared Server
+
+All firm cases are recorded in the file cases.txt at the root of the repository.
+Follow this format and process every time you add a new case.
+
+### Case Log Format
+
+Each entry in cases.txt follows this structure:
+
+      Case <number>
+      <Type of case>
+      Client name: <Client's name>
+      <Brief note about the case>
+
+Example:
+
+      Case 14
+      Breach of Contract
+      Client name: Omondi
+      Client signed a lease agreement and vacated the premises without notice.
+
+Keep notes factual and concise. Do not include confidential financial details or
+privileged communications in this file — it is shared across the team.
+
+### Step-by-Step: Logging and Submitting a Case
+
+1. Pull the latest version of the repository so you have the most current case list:
+
+      git pull
+
+2. Open cases.txt and scroll to the bottom. Find the number of the last case and
+   add your new entry directly after it, incrementing the case number by one.
+
+3. Save the file.
+
+4. Stage the updated file:
+
+      git add cases.txt
+
+5. Commit with a descriptive message:
+
+      git commit -m "Add: case <number> - <case type> for client <name>"
+
+6. Pull once more to catch any changes pushed since you started editing:
+
+      git pull
+
+   If Git reports a conflict, open cases.txt, resolve the conflict markers
+   (the lines starting with <<<<<<<, =======, and >>>>>>>), save the file,
+   then run:
+
+      git add cases.txt
+      git commit -m "Merge: resolve conflict in cases.txt"
+
+7. Push to the shared GitHub repository:
+
+      git push
+
+Your case is now on the remote server and visible to the rest of the team.
+
+---
+
+If you run into any issues, ask a senior lawyer or consult the GitHub documentation
+at https://docs.github.com.

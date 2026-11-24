@@ -1,0 +1,99 @@
+# Triple K Associates — New Lawyer Onboarding Guide
+# Author: Jorge
+
+Welcome to Triple K Associates. This guide explains how to set up Git, add a
+case to the firm's case log, and upload your changes to the shared repository.
+
+## 1. Set Up Git
+
+1. Install Git if it is not already installed. Check by running:
+
+      git --version
+
+2. Set the name and email that Git will use for your commits. Replace the
+   examples with your own details:
+
+      git config --global user.name "Your Full Name"
+      git config --global user.email "your.email@example.com"
+
+3. Clone the firm's repository:
+
+      git clone https://github.com/in-the-r00T/tripple-k-associates.git
+
+   GitHub access may require an authorized account and authentication.
+
+4. Go into the project folder:
+
+      cd tripple-k-associates
+
+## 2. Get the Latest Case Log
+
+Before making changes, get the latest version of the repository:
+
+      git pull origin main
+
+Check the current files and changes:
+
+      git status
+
+Open the case log:
+
+      vim cases.txt
+
+## 3. Add a New Case
+
+Go to the end of cases.txt and add a blank line, followed by the next available
+case number. Keep the entry in this format:
+
+      Case <number>
+      <Type of case>
+      Client name: <Client's name>
+      <Brief factual note about the case>
+
+For example:
+
+      Case 15
+      Breach of Contract
+      Client name: Omondi
+      Client disputes the terms of a lease agreement.
+
+Use the next sequential number based on the existing log. Keep notes brief and
+factual. Do not include confidential financial details, passwords, or privileged
+communications.
+
+In Vim, save and exit by typing:
+
+      :wq
+
+## 4. Review, Commit, and Upload Your Change
+
+Review your change before committing:
+
+      git status
+      git diff
+
+Stage and commit the case log:
+
+      git add cases.txt
+      git commit -m "Add case <number>: <short description>"
+
+Before uploading, check for and incorporate any changes that were pushed by
+colleagues while you were working:
+
+      git pull origin main
+
+Then upload your commit:
+
+      git push origin main
+
+If Git reports a merge conflict, open the affected file, resolve the conflict
+while preserving the correct case entries, then save, stage, and commit the
+resolved file before pushing. Do not leave conflict marker lines in the file.
+
+## Good Practices
+
+- Pull the latest changes before starting work.
+- Use the next available case number and do not overwrite another lawyer's entry.
+- Review your changes before committing.
+- Never store passwords or access tokens in the repository.
+- Keep client information confidential.

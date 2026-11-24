@@ -1,0 +1,64 @@
+Welcome to Triple K Associates! This is a guide that walks you through our Version Control System and How to log cases in our shared repository.
+=============================================================
+
+1.  How to use Triple K Associates VCS
+    We use Git as our VCS, hosted on Github.
+
+Step 1: Install Git
+
+step 2: Configure Git
+        git config --global user.name "Your Full Name"
+        git config -global user.email "your.email@gamil.com"
+
+Step 3: Clone the repository to get a local copy
+        git clone <repository-url>
+        cd Triple-K-Associates
+
+Step 4: Before starting your work, always pull the lates changes
+        git pull origin main
+
+Step 5: After making changes, stage, commit, and push
+        git add
+        git commit -m "Commitment message"
+        git push origin main
+
+==============================================================
+
+2. How to log cases
+
+All cases are logged in the file: Triple K Associates/cases.txt
+
+Format:
+
+Case [number]
+[Tye of case/offense]
+Client name [Client's full name]
+Brief description/notes about the case]
+
+Example:
+
+Case 1
+Defamation
+Client name: Korir
+Client claims some defamatory remarks were published by CityZenTV
+
+
+Steps to Add a New Case:
+
+1. Open cases.txt in any editor i.e vim, nano, bla! bla! bla!
+2. Scroll to the end of the file
+3. Add a blank line, then write your new case using the format above
+4. Save the file
+5. Add, Commit and Push your changes:
+        git add cases.txt
+        git commit -m "adds case [number]:[type of case]:[Client name]
+
+
+RULES NOT TO FORGET!
+Always run 'git pull' before you start your editing to avoid conflicts
+Never edit existing cases unless correcting an error
+Be sequential in your numbering
+Keep descriptions factual and conciseee
+Be Happy!
+Make sure the client is confident on winning his/her case!
+ 

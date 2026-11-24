@@ -1,0 +1,58 @@
+PART 1: USING THE TRIPLE K ASSOCIATES VCS (GIT)
+
+What it is:
+Our version control system (VCS) is Git. It tracks every change made to our
+case files, so we always know who changed what and when, and can recover any
+earlier version. The shared server is our GitHub repository.
+
+One-time setup:
+1. Install Git (Linux: sudo apt install git).
+2. Set your identity:
+   git config --global user.name "Your Name"
+   git config --global user.email "you@example.com"
+3. Accept the collaborator invitation sent by the repository owner
+   (check your email or github.com/notifications).
+4. Create a GitHub Personal Access Token (classic) with the "repo" scope.
+   Use it as your password when Git asks (your account password will not work).
+5. Clone the repository:
+   git clone https://github.com/in-the-r00T/tripple-k-associates
+   cd tripple-k-associates
+
+Daily routine:
+- Before you start work, get the latest changes:  git pull
+- See what you changed:                           git status
+- Stage your changes:                             git add <filename>
+- Save a snapshot with a message:                 git commit -m "message"
+- Send your work to the shared server:            git push
+
+PART 2: LOGGING CASES AND SUBMITTING THEM TO THE SHARED SERVER
+
+1. Run "git pull" so you have the latest version of cases.txt.
+2. Open cases.txt in a text editor (e.g. nano cases.txt).
+3. Add your case entry on a new line at the end of the file. Include the case
+   name or number, date, client, status, and a short summary. Never delete or
+   overwrite another lawyer's entries.
+4. Save the file.
+5. Stage and commit:
+   git add cases.txt
+   git commit -m "Log case: <case name/number>"
+6. Push to the shared server:
+   git push
+7. Check the repository on GitHub to confirm your entry appears.
+
+COMMON PROBLEMS
+- "Authentication failed": use your token, not your password, and make sure
+  you accepted the collaborator invite.
+- "rejected - fetch first" or "diverged": someone else pushed first. Run
+  git pull, then git push again.
+- Merge conflict (markers <<<<<<<, =======, >>>>>>> in the file): open the file,
+  keep the correct lines from both versions, delete the marker lines, then
+  git add <file> and git commit.
+- Pull blocked by local changes: commit them first, or use git stash.
+
+GOOD PRACTICES
+- Pull before you start and before you push.
+- Write clear commit messages.
+- Commit small and often.
+- Never store passwords or tokens in the repository.
+- Keep client information confidential.
