@@ -85,22 +85,20 @@ Adultery
 Client name: Juma
 Client is abusing underage and people wives is the residence.
 
-case 22
+case 24
 succession
 client: Adil
 client is tired of waiting for his old man to allocate the estate
 
-case 23
+case 225
 divorce
 client: grace
 client claims the husband has enrolled to hakimi group of schools
 
-case 25
+case 26
 criminal offence
 Involved  in a high speed chase
-=======
-=======
->>>>>>> 594005bf60a36b3e5b4a5ad80a6df5683c8847ce
+
 Case 18
 Exploitation
 Client name: Kuria
@@ -116,6 +114,6 @@ Client name: Riggy
 Client is facing impeachment amid claims of abandoning his Harambee house and camping in Mt Kenya chanting 'Usiguze Murimaa🎵🎶'
 Obstruction of Justice
 
-Case 21
+Case 27
 Client Name: Khalif
 Client is flying on the expressway at speeds of 200 km/h to avoid arrest
