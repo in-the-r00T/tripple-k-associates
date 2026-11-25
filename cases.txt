@@ -84,3 +84,13 @@ Case 17
 Adultery
 Client name: Juma
 Client is abusing underage and people wives is the residence.
+
+case 18
+succession
+client: Adil
+client is tired of waiting for his old man to allocate the estate
+
+case 19
+divorce
+client: grace
+client claims the husband has enrolled to hakimi group of schools
