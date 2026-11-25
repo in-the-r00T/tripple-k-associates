@@ -1,4 +1,4 @@
-# Case 001: Tresspassing
+# Case 23: Tresspassing
 
 ## Background
 Client was found trespassing private property
