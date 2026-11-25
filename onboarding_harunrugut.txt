@@ -1,0 +1,10 @@
+TRIPLE K ASSOCIATES – NEW-LAWYER ONBOARDING GUIDE
+
+Welcome to Triple K Associates. The firm uses Git and GitHub as its Version Control System (VCS) to manage files, track changes and support collaboration. New lawyers should follow these steps:
+ 1. Create a GitHub account and obtain access to the firm's `tripple-k-associates` repository.
+ 2. Configure Git with your name and email using `git config --global user.name "Your Name"` and `git config --global user.email "your-email@example.com"`.
+ 3. Locate and open the `cases.txt` file using `nano cases.txt`.
+ 4. Examine the existing entries and add the next available case number, a brief description and the client's name, while preserving previous records and maintaining confidentiality. 5. Save the file and use `git status` to check your changes.
+ 6. Stage the updated file using `git add cases.txt`.
+ 7. Record your contribution using `git commit -m "Add new case"`.
+ 8. Submit your contribution to the shared GitHub repository for review and inclusion in the firm's records.
