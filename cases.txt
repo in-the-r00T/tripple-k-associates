@@ -84,3 +84,8 @@ Case 17
 Adultery
 Client name: Juma
 Client is abusing underage and people wives is the residence.
+
+Case 18
+Obstruction of Justice
+Client Name: Khalif
+Client is flying on the expressway at speeds of 200 km/h to avoid arrest
