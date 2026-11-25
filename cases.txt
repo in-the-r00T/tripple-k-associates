@@ -113,3 +113,8 @@ Case 23
 Client name Shujaa
 Client is advocating for the disbursement of student loans.
 client paid ksh 50000 as retainer
+
+Cases 25
+Client name: Covid Otieno
+Client case: Eleection malpractice
+Client is requesting court-order to have votes recounted. He is alleging that grade3 prefect votes were stollen in favour of his competitor.
