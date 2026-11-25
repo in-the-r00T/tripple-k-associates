@@ -113,3 +113,8 @@ Case 23
 Client name Shujaa
 Client is advocating for the disbursement of student loans.
 client paid ksh 50000 as retainer
+
+Case 24 
+Robbery
+Client name : Zakayo
+Client is reportedly stealing from the manager when he is not around 
