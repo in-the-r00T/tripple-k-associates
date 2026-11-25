@@ -11,3 +11,5 @@
 5. Perform  "git pull" to make sure your are syncronised with the latest version.
 
 6. Git push to the remote repository using "git push" command.
+
+7. To resolve conflict open the file with vim and clear out the marker.
