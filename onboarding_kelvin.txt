@@ -1,0 +1,84 @@
+# Triple K Associates - Onboarding Guide for New Lawyers
+# Author: Kelvin Mwangi
+
+This guide is to help all new Lawyers on how to open github.
+
+== 1. ONE-TIME SETUP ==
+
+1. Install Git and the GitHub CLI:
+     sudo apt install git gh
+This command will install the git on your pc and you only need to do it once.
+
+2. To let Git know who you are (you shall use your GitHub email and then run these commands):
+     git config --global user.name "Your Full Name"
+     git config --global user.email "you@example.com"
+     git config --global pull.rebase false
+
+3.Now log into GitHub by typing this.
+     gh auth login
+   GitHub.com -> HTTPS -> Login with a web browser by pressing enter at each step.
+   copy the login code that you will paste on your github pop-up page and authorize.
+   To check if it worke run:  gh auth status
+
+4. Accept the collaborator invite from the repo owner (check your email).
+
+5. Download the firm's repository:
+     git clone https://github.com/in-the-r00T/tripple-k-associates.git
+     cd tripple-k-associates
+
+== 2.HOW TO LOG A CASE == Get the latest cases:
+
+1.To get access to the latest cases run
+   git checkout main  
+   git pull
+
+2.To make your own branch run
+     git checkout -b yourname_branch
+
+3.To open cases run open cases.txt,and go to the end, and add your case number example;
+     Case 15
+     Land dispute
+     Client name: Wanjiru
+     Neighbour moved the boundary beacons on her plot.
+
+4. TO check on what you added run:
+     git diff
+
+5.To save a snapshot which shows what you changed and why run
+     git add cases.txt
+     git commit -m "Log case 15: land dispute for Wanjiru, who needs us to file before the survey"
+
+6.Now if you want to send your branch to GitHub run
+     git push --set-upstream origin yourname_branch
+
+7.Now if you want to request for a review run
+     gh pr create --base main --title "Add case 15: land dispute for Wanjiru"
+   A senior lawyer reviews it, may ask questions, then merges it into main.
+
+== 3. WHEN THERE IS A MERGE CONFLICT ==
+A conflict means someone else added a case at the same spot you did.To resolve this,
+
+1. Bring the main into your branch:
+     git pull origin main
+
+2. Vim cases.txt and find:
+     <<<<<<< HEAD
+     (your case)
+     =======
+     (their case)
+     >>>>>>> ...
+
+3. Delete the three marker lines and keep BOTH cases. Theirs keeps its
+   number, and yours moves to the next number.
+
+4. Save the fix:
+     git add cases.txt
+     git commit
+     git push
+   The pull request updates by itself.
+
+== GOLDEN RULES ==
+- Pull before you start, and pull before you push.
+- Never edit or delete another lawyer's case.
+- Never put passwords or tokens in the repo.
+- Stuck for more than 10 minutes? Ask a senior lawyer.
