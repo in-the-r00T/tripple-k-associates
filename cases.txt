@@ -113,3 +113,8 @@ Case 23
 Client name Shujaa
 Client is advocating for the disbursement of student loans.
 client paid ksh 50000 as retainer
+
+Case 24
+Breach of Contract
+Client name: John
+A supplier delivered red umbrellas instead of the blue umbrellas specified in the order.
