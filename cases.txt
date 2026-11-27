@@ -113,3 +113,8 @@ Case 23
 Client name Shujaa
 Client is advocating for the disbursement of student loans.
 client paid ksh 50000 as retainer
+
+case 24
+Succession
+client clients late father's id found, the case to proceed as scheduled.
+
