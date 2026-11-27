@@ -85,7 +85,6 @@ Adultery
 Client name: Juma
 Client is abusing underage and people wives is the residence.
 
-<<<<<<< HEAD
 case 18
 succession
 client: Adil
@@ -95,27 +94,31 @@ case 19
 divorce
 client: grace
 client claims the husband has enrolled to hakimi group of schools
-=======
-Case 18
+
+case 20
+criminal offence
+Involved  in a high speed chase
+
+Case 21
 Exploitation
 Client name: Kuria
 Client is lamenting of increased cost of electric buses in the city.
 
-Case 19
+Case 22
 Drug trafficking
 Client name: Hassan
 Hassan's car is being used to ferry Cocaine by his driver without him getting a share of proceeds.
-Case 20
+
+Case 23
 Impeachment
 Client name: Riggy
 Client is facing impeachment amid claims of abandoning his Harambee house and camping in Mt Kenya chanting 'Usiguze Murimaa🎵🎶'
 Obstruction of Justice
 
-Case 21
+Case 24
 Client Name: Khalif
 Client is flying on the expressway at speeds of 200 km/h to avoid arrest
 
-Case 22
+Case 25
 Client name Shujaa
 Client is advocating for the disbursement of student loans.
-
