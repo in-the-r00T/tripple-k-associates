@@ -120,5 +120,11 @@ Client Name: Khalif
 Client is flying on the expressway at speeds of 200 km/h to avoid arrest
 
 Case 25
+Case Title: Banditry
+Client Name: John Kamau
+Description: The client reported an incident of banditry involving the theft of livestock by armed individuals. The incident was reported for investigation and appropriate legal assistance.
+
+Case 26
 Client name Shujaa
 Client is advocating for the disbursement of student loans.
+client paid ksh 50000 as retainer
